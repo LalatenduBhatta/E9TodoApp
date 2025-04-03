@@ -1,0 +1,40 @@
+.addtask {
+  display: flex;
+  background-color: rgb(119, 115, 115);
+  height: 100px;
+  justify-content: space-between;
+  padding: 5px 30px;
+  align-items: center;
+  gap: 20px;
+}
+.addtask input {
+  height: 60%;
+  flex-grow: 1;
+  /* text-align: center; */
+  font-size: 28px;
+  outline: none;
+  border: none;
+}
+.addtask input::placeholder {
+  text-align: center;
+  color: orange;
+}
+.addtask input:focus {
+  box-shadow: 0 0 10px rgb(7, 3, 192);
+}
+.addtask button {
+  height: 60%;
+  padding: 0 15px;
+  color: white;
+  background-color: green;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(189, 186, 186);
+}
+.addtask button:hover {
+  color: green;
+  background-color: whitesmoke;
+  box-shadow: 0 0 2px inset rgb(84, 78, 78);
+}
